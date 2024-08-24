@@ -1,0 +1,55 @@
+.taskcard {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.taskcard:hover {
+  transform: translateY(-5px);
+}
+
+.taskcard .cardtxt {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.tags-deleteimg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tagsimgs {
+  display: flex;
+  gap: 10px;
+}
+
+.deleteimg {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .tags-deleteimg {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tagsimgs {
+    width: 100%;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .deleteimg {
+    align-self: flex-end;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,45 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.left-col,
+.mid-col,
+.right-col {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.status img {
+  width: 24px;
+  height: 24px;
+}
+
+.status h2 {
+  font-size: 1.5em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .left-col,
+  .mid-col,
+  .right-col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

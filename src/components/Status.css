@@ -1,0 +1,27 @@
+.status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status img {
+  width: 24px;
+  height: 24px;
+}
+
+.status h2 {
+  font-size: 1.5em;
+  color: #2c3e50;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .status {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .status img {
+    margin-bottom: 10px;
+  }
+}

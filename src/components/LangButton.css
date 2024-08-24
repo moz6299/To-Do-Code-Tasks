@@ -1,0 +1,66 @@
+.langbut .btn {
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.langbut .btn:hover {
+  background-color: #3498db;
+}
+
+.langbut {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.btn {
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.btn.html {
+  background-color: #e54d26; /* Orange */
+}
+
+.btn.css {
+  background-color: #2965f1; /* Blue */
+}
+
+.btn.javascript {
+  background-color: #f7df1e; /* Yellow */
+}
+
+.btn.react {
+  background-color: #61dafb; /* Light Blue */
+}
+
+.btn.active {
+  opacity: 0.8;
+}
+
+.activebut{
+  background-color: #f7df1e;
+  color: rgb(22, 21, 21);
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .langbut .btn {
+    width: 100%;
+  }
+}
